@@ -6,7 +6,7 @@ import tensorflow as tf
 from deepface import DeepFace
 
 
-WEIGHTS_URL = r"file:///C:\repos\iciap-2023\iciap-2023-9e8cab2b.ckpt"
+WEIGHTS_URL = "https://miatbiolab.csr.unibo.it/wp-content/uploads/2023/iciap-2023-9e8cab2b.ckpt"
 
 
 class ICIAP2023(torch.nn.Module):
