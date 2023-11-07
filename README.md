@@ -55,3 +55,18 @@ lives = [cv.imread("live1.png"), cv.imread("live2.png")]
 # Get the predictions
 predictions = get_prediction(documents, lives, device="cuda:0")
 ```
+
+## Acknowledgement
+
+When using the code from this repository, please cite the following work:
+
+```
+@inproceedings{di2023combining,
+  title={Combining Identity Features and Artifact Analysis for Differential Morphing Attack Detection},
+  author={Di Domenico, Nicol{\`o} and Borghi, Guido and Franco, Annalisa and Maltoni, Davide},
+  booktitle={International Conference on Image Analysis and Processing},
+  pages={100--111},
+  year={2023},
+  organization={Springer}
+}
+```
